@@ -1,0 +1,1123 @@
+{
+ "version": 4,
+ "world": {
+  "w": 402,
+  "h": 620,
+  "originInMockup": [
+   0,
+   110
+  ]
+ },
+ "rooms": {
+  "helm": {
+   "x": 57,
+   "y": 146,
+   "w": 143,
+   "h": 86,
+   "floor": {
+    "x": 63,
+    "y": 171,
+    "w": 131,
+    "h": 55
+   },
+   "row": 0
+  },
+  "charts": {
+   "x": 204,
+   "y": 146,
+   "w": 141,
+   "h": 86,
+   "floor": {
+    "x": 210,
+    "y": 171,
+    "w": 129,
+    "h": 55
+   },
+   "row": 0
+  },
+  "galley": {
+   "x": 57,
+   "y": 232,
+   "w": 143,
+   "h": 86,
+   "floor": {
+    "x": 63,
+    "y": 257,
+    "w": 131,
+    "h": 55
+   },
+   "row": 1
+  },
+  "library": {
+   "x": 204,
+   "y": 232,
+   "w": 141,
+   "h": 86,
+   "floor": {
+    "x": 210,
+    "y": 257,
+    "w": 129,
+    "h": 55
+   },
+   "row": 1
+  },
+  "sickbay": {
+   "x": 57,
+   "y": 318,
+   "w": 143,
+   "h": 86,
+   "floor": {
+    "x": 63,
+    "y": 343,
+    "w": 131,
+    "h": 55
+   },
+   "row": 2
+  },
+  "qa": {
+   "x": 204,
+   "y": 318,
+   "w": 141,
+   "h": 86,
+   "floor": {
+    "x": 210,
+    "y": 343,
+    "w": 129,
+    "h": 55
+   },
+   "row": 2
+  },
+  "lounge": {
+   "x": 57,
+   "y": 404,
+   "w": 288,
+   "h": 86,
+   "floor": {
+    "x": 63,
+    "y": 437,
+    "w": 276,
+    "h": 47
+   },
+   "row": 3
+  },
+  "workshop": {
+   "x": 57,
+   "y": 490,
+   "w": 143,
+   "h": 86,
+   "floor": {
+    "x": 63,
+    "y": 515,
+    "w": 131,
+    "h": 55
+   },
+   "row": 4
+  },
+  "cargo": {
+   "x": 204,
+   "y": 490,
+   "w": 141,
+   "h": 86,
+   "floor": {
+    "x": 210,
+    "y": 515,
+    "w": 129,
+    "h": 55
+   },
+   "row": 4
+  },
+  "lawn": {
+   "x": 60,
+   "y": 40,
+   "w": 282,
+   "h": 106,
+   "floor": {
+    "x": 90,
+    "y": 86,
+    "w": 222,
+    "h": 54
+   },
+   "row": -1
+  },
+  "figurehead": {
+   "x": 171,
+   "y": 8,
+   "w": 60,
+   "h": 60,
+   "floor": null,
+   "row": -2
+  },
+  "crows_nest": {
+   "x": 184,
+   "y": 78,
+   "w": 34,
+   "h": 30,
+   "floor": null,
+   "row": -1,
+   "elevated": true
+  }
+ },
+ "stations": {
+  "usopp": {
+   "room": "crows_nest",
+   "x": 201,
+   "y": 104,
+   "dir": "down",
+   "anim": "telescope",
+   "pose": "stand",
+   "bubble": [
+    201,
+    59
+   ],
+   "behindFront": false
+  },
+  "jinbe": {
+   "room": "helm",
+   "x": 148,
+   "y": 216,
+   "dir": "down",
+   "anim": "write_ledger",
+   "pose": "stand",
+   "bubble": [
+    148,
+    170
+   ],
+   "behindFront": true
+  },
+  "nami": {
+   "room": "charts",
+   "x": 272,
+   "y": 214,
+   "dir": "down",
+   "anim": "draw_map",
+   "pose": "stand",
+   "bubble": [
+    272,
+    172
+   ],
+   "behindFront": true
+  },
+  "sanji": {
+   "room": "galley",
+   "x": 128,
+   "y": 304,
+   "dir": "down",
+   "anim": "flip_pan",
+   "pose": "stand",
+   "bubble": [
+    128,
+    261
+   ],
+   "behindFront": false
+  },
+  "robin": {
+   "room": "library",
+   "x": 275,
+   "y": 302,
+   "dir": "down",
+   "anim": "read_book",
+   "pose": "sit",
+   "bubble": [
+    275,
+    257
+   ],
+   "behindFront": true
+  },
+  "chopper": {
+   "room": "sickbay",
+   "x": 124,
+   "y": 392,
+   "dir": "down",
+   "anim": "scan_listing",
+   "pose": "stand",
+   "bubble": [
+    124,
+    356
+   ],
+   "behindFront": false
+  },
+  "law": {
+   "room": "qa",
+   "x": 296,
+   "y": 392,
+   "dir": "down",
+   "anim": "check_clipboard",
+   "pose": "stand",
+   "bubble": [
+    296,
+    343
+   ],
+   "behindFront": false
+  },
+  "brook": {
+   "room": "lounge",
+   "x": 206,
+   "y": 484,
+   "dir": "down",
+   "anim": "violin",
+   "pose": "stand",
+   "bubble": [
+    206,
+    434
+   ],
+   "behindFront": false
+  },
+  "frankie": {
+   "room": "workshop",
+   "x": 106,
+   "y": 562,
+   "dir": "down",
+   "anim": "hammer",
+   "pose": "stand",
+   "bubble": [
+    106,
+    515
+   ],
+   "behindFront": false
+  },
+  "zoro": {
+   "room": "cargo",
+   "x": 274,
+   "y": 564,
+   "dir": "down",
+   "anim": "lift_crate",
+   "pose": "stand",
+   "bubble": [
+    274,
+    522
+   ],
+   "behindFront": false
+  },
+  "luffy": {
+   "room": "figurehead",
+   "x": 201,
+   "y": 36,
+   "dir": "down",
+   "anim": "sit_figurehead",
+   "pose": "sit",
+   "bubble": [
+    201,
+    -9
+   ],
+   "behindFront": false
+  }
+ },
+ "spots": {
+  "lounge_sofa_1": [
+   110,
+   482
+  ],
+  "lounge_sofa_2": [
+   138,
+   482
+  ],
+  "lounge_meet": [
+   201,
+   476
+  ],
+  "lawn_1": [
+   130,
+   130
+  ],
+  "lawn_2": [
+   272,
+   130
+  ],
+  "lawn_3": [
+   201,
+   140
+  ],
+  "galley_table": [
+   170,
+   308
+  ],
+  "cargo_pallet": [
+   236,
+   566
+  ]
+ },
+ "doors": [
+  {
+   "id": "door0L",
+   "x": 187,
+   "y": 168,
+   "connects": [
+    "lawn",
+    "helm"
+   ]
+  },
+  {
+   "id": "door0R",
+   "x": 215,
+   "y": 168,
+   "connects": [
+    "lawn",
+    "charts"
+   ]
+  },
+  {
+   "id": "door1L",
+   "x": 187,
+   "y": 254,
+   "connects": [
+    "helm",
+    "galley"
+   ]
+  },
+  {
+   "id": "door1R",
+   "x": 215,
+   "y": 254,
+   "connects": [
+    "charts",
+    "library"
+   ]
+  },
+  {
+   "id": "door2L",
+   "x": 187,
+   "y": 340,
+   "connects": [
+    "galley",
+    "sickbay"
+   ]
+  },
+  {
+   "id": "door2R",
+   "x": 215,
+   "y": 340,
+   "connects": [
+    "library",
+    "qa"
+   ]
+  },
+  {
+   "id": "door3L",
+   "x": 187,
+   "y": 434,
+   "connects": [
+    "sickbay",
+    "lounge"
+   ]
+  },
+  {
+   "id": "door3R",
+   "x": 215,
+   "y": 434,
+   "connects": [
+    "qa",
+    "lounge"
+   ]
+  },
+  {
+   "id": "door4L",
+   "x": 187,
+   "y": 512,
+   "connects": [
+    "lounge",
+    "workshop"
+   ]
+  },
+  {
+   "id": "door4R",
+   "x": 215,
+   "y": 512,
+   "connects": [
+    "lounge",
+    "cargo"
+   ]
+  },
+  {
+   "id": "div0",
+   "x": 202,
+   "y": 211,
+   "connects": [
+    "helm",
+    "charts"
+   ]
+  },
+  {
+   "id": "div1",
+   "x": 202,
+   "y": 297,
+   "connects": [
+    "galley",
+    "library"
+   ]
+  },
+  {
+   "id": "div2",
+   "x": 202,
+   "y": 383,
+   "connects": [
+    "sickbay",
+    "qa"
+   ]
+  },
+  {
+   "id": "div4",
+   "x": 202,
+   "y": 555,
+   "connects": [
+    "workshop",
+    "cargo"
+   ]
+  }
+ ],
+ "nodes": {
+  "helm_c": {
+   "x": 128,
+   "y": 198,
+   "room": "helm"
+  },
+  "charts_c": {
+   "x": 274,
+   "y": 198,
+   "room": "charts"
+  },
+  "galley_c": {
+   "x": 128,
+   "y": 284,
+   "room": "galley"
+  },
+  "library_c": {
+   "x": 274,
+   "y": 284,
+   "room": "library"
+  },
+  "sickbay_c": {
+   "x": 128,
+   "y": 370,
+   "room": "sickbay"
+  },
+  "qa_c": {
+   "x": 274,
+   "y": 370,
+   "room": "qa"
+  },
+  "lounge_c": {
+   "x": 201,
+   "y": 460,
+   "room": "lounge"
+  },
+  "workshop_c": {
+   "x": 128,
+   "y": 542,
+   "room": "workshop"
+  },
+  "cargo_c": {
+   "x": 274,
+   "y": 542,
+   "room": "cargo"
+  },
+  "lawn_c": {
+   "x": 201,
+   "y": 113,
+   "room": "lawn"
+  },
+  "bow": {
+   "x": 201,
+   "y": 62,
+   "room": "lawn"
+  },
+  "mast": {
+   "x": 201,
+   "y": 132,
+   "room": "lawn"
+  },
+  "door0L_in": {
+   "x": 187,
+   "y": 171,
+   "room": "helm"
+  },
+  "door0L_out": {
+   "x": 187,
+   "y": 142,
+   "room": "lawn"
+  },
+  "door0R_in": {
+   "x": 215,
+   "y": 171,
+   "room": "charts"
+  },
+  "door0R_out": {
+   "x": 215,
+   "y": 142,
+   "room": "lawn"
+  },
+  "door1L_in": {
+   "x": 187,
+   "y": 257,
+   "room": "galley"
+  },
+  "door1L_out": {
+   "x": 187,
+   "y": 228,
+   "room": "helm"
+  },
+  "door1R_in": {
+   "x": 215,
+   "y": 257,
+   "room": "library"
+  },
+  "door1R_out": {
+   "x": 215,
+   "y": 228,
+   "room": "charts"
+  },
+  "door2L_in": {
+   "x": 187,
+   "y": 343,
+   "room": "sickbay"
+  },
+  "door2L_out": {
+   "x": 187,
+   "y": 314,
+   "room": "galley"
+  },
+  "door2R_in": {
+   "x": 215,
+   "y": 343,
+   "room": "qa"
+  },
+  "door2R_out": {
+   "x": 215,
+   "y": 314,
+   "room": "library"
+  },
+  "door3L_in": {
+   "x": 187,
+   "y": 437,
+   "room": "lounge"
+  },
+  "door3L_out": {
+   "x": 187,
+   "y": 408,
+   "room": "sickbay"
+  },
+  "door3R_in": {
+   "x": 215,
+   "y": 437,
+   "room": "lounge"
+  },
+  "door3R_out": {
+   "x": 215,
+   "y": 408,
+   "room": "qa"
+  },
+  "door4L_in": {
+   "x": 187,
+   "y": 515,
+   "room": "workshop"
+  },
+  "door4L_out": {
+   "x": 187,
+   "y": 486,
+   "room": "lounge"
+  },
+  "door4R_in": {
+   "x": 215,
+   "y": 515,
+   "room": "cargo"
+  },
+  "door4R_out": {
+   "x": 215,
+   "y": 486,
+   "room": "lounge"
+  },
+  "div0": {
+   "x": 202,
+   "y": 211,
+   "room": "helm"
+  },
+  "div1": {
+   "x": 202,
+   "y": 297,
+   "room": "galley"
+  },
+  "div2": {
+   "x": 202,
+   "y": 383,
+   "room": "sickbay"
+  },
+  "div4": {
+   "x": 202,
+   "y": 555,
+   "room": "workshop"
+  },
+  "st_usopp": {
+   "x": 201,
+   "y": 104,
+   "room": "crows_nest"
+  },
+  "st_jinbe": {
+   "x": 148,
+   "y": 216,
+   "room": "helm"
+  },
+  "st_nami": {
+   "x": 272,
+   "y": 214,
+   "room": "charts"
+  },
+  "st_sanji": {
+   "x": 128,
+   "y": 304,
+   "room": "galley"
+  },
+  "st_robin": {
+   "x": 275,
+   "y": 302,
+   "room": "library"
+  },
+  "st_chopper": {
+   "x": 124,
+   "y": 392,
+   "room": "sickbay"
+  },
+  "st_law": {
+   "x": 296,
+   "y": 392,
+   "room": "qa"
+  },
+  "st_brook": {
+   "x": 206,
+   "y": 484,
+   "room": "lounge"
+  },
+  "st_frankie": {
+   "x": 106,
+   "y": 562,
+   "room": "workshop"
+  },
+  "st_zoro": {
+   "x": 274,
+   "y": 564,
+   "room": "cargo"
+  },
+  "st_luffy": {
+   "x": 201,
+   "y": 36,
+   "room": "figurehead"
+  },
+  "lounge_sofa_1": {
+   "x": 110,
+   "y": 482,
+   "room": "lounge"
+  },
+  "lounge_sofa_2": {
+   "x": 138,
+   "y": 482,
+   "room": "lounge"
+  },
+  "lounge_meet": {
+   "x": 201,
+   "y": 476,
+   "room": "lounge"
+  },
+  "lawn_1": {
+   "x": 130,
+   "y": 130,
+   "room": "lawn"
+  },
+  "lawn_2": {
+   "x": 272,
+   "y": 130,
+   "room": "lawn"
+  },
+  "lawn_3": {
+   "x": 201,
+   "y": 140,
+   "room": "lawn"
+  },
+  "galley_table": {
+   "x": 170,
+   "y": 308,
+   "room": "galley"
+  },
+  "cargo_pallet": {
+   "x": 236,
+   "y": 566,
+   "room": "cargo"
+  }
+ },
+ "edges": [
+  [
+   "bow",
+   "lawn_c",
+   "walk"
+  ],
+  [
+   "mast",
+   "lawn_c",
+   "walk"
+  ],
+  [
+   "door0L_in",
+   "door0L_out",
+   "door"
+  ],
+  [
+   "door0L_in",
+   "helm_c",
+   "walk"
+  ],
+  [
+   "door0L_out",
+   "lawn_c",
+   "walk"
+  ],
+  [
+   "door0R_in",
+   "door0R_out",
+   "door"
+  ],
+  [
+   "door0R_in",
+   "charts_c",
+   "walk"
+  ],
+  [
+   "door0R_out",
+   "lawn_c",
+   "walk"
+  ],
+  [
+   "door1L_in",
+   "door1L_out",
+   "door"
+  ],
+  [
+   "door1L_in",
+   "galley_c",
+   "walk"
+  ],
+  [
+   "door1L_out",
+   "helm_c",
+   "walk"
+  ],
+  [
+   "door1R_in",
+   "door1R_out",
+   "door"
+  ],
+  [
+   "door1R_in",
+   "library_c",
+   "walk"
+  ],
+  [
+   "door1R_out",
+   "charts_c",
+   "walk"
+  ],
+  [
+   "door2L_in",
+   "door2L_out",
+   "door"
+  ],
+  [
+   "door2L_in",
+   "sickbay_c",
+   "walk"
+  ],
+  [
+   "door2L_out",
+   "galley_c",
+   "walk"
+  ],
+  [
+   "door2R_in",
+   "door2R_out",
+   "door"
+  ],
+  [
+   "door2R_in",
+   "qa_c",
+   "walk"
+  ],
+  [
+   "door2R_out",
+   "library_c",
+   "walk"
+  ],
+  [
+   "door3L_in",
+   "door3L_out",
+   "door"
+  ],
+  [
+   "door3L_in",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "door3L_out",
+   "sickbay_c",
+   "walk"
+  ],
+  [
+   "door3R_in",
+   "door3R_out",
+   "door"
+  ],
+  [
+   "door3R_in",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "door3R_out",
+   "qa_c",
+   "walk"
+  ],
+  [
+   "door4L_in",
+   "door4L_out",
+   "door"
+  ],
+  [
+   "door4L_in",
+   "workshop_c",
+   "walk"
+  ],
+  [
+   "door4L_out",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "door4R_in",
+   "door4R_out",
+   "door"
+  ],
+  [
+   "door4R_in",
+   "cargo_c",
+   "walk"
+  ],
+  [
+   "door4R_out",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "div0",
+   "helm_c",
+   "walk"
+  ],
+  [
+   "div0",
+   "charts_c",
+   "walk"
+  ],
+  [
+   "div1",
+   "galley_c",
+   "walk"
+  ],
+  [
+   "div1",
+   "library_c",
+   "walk"
+  ],
+  [
+   "div2",
+   "sickbay_c",
+   "walk"
+  ],
+  [
+   "div2",
+   "qa_c",
+   "walk"
+  ],
+  [
+   "div4",
+   "workshop_c",
+   "walk"
+  ],
+  [
+   "div4",
+   "cargo_c",
+   "walk"
+  ],
+  [
+   "st_usopp",
+   "mast",
+   "climb"
+  ],
+  [
+   "st_jinbe",
+   "helm_c",
+   "walk"
+  ],
+  [
+   "st_nami",
+   "charts_c",
+   "walk"
+  ],
+  [
+   "st_sanji",
+   "galley_c",
+   "walk"
+  ],
+  [
+   "st_robin",
+   "library_c",
+   "walk"
+  ],
+  [
+   "st_chopper",
+   "sickbay_c",
+   "walk"
+  ],
+  [
+   "st_law",
+   "qa_c",
+   "walk"
+  ],
+  [
+   "st_brook",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "st_frankie",
+   "workshop_c",
+   "walk"
+  ],
+  [
+   "st_zoro",
+   "cargo_c",
+   "walk"
+  ],
+  [
+   "st_luffy",
+   "bow",
+   "climb"
+  ],
+  [
+   "lounge_sofa_1",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "lounge_sofa_2",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "lounge_meet",
+   "lounge_c",
+   "walk"
+  ],
+  [
+   "lawn_1",
+   "lawn_c",
+   "walk"
+  ],
+  [
+   "lawn_2",
+   "lawn_c",
+   "walk"
+  ],
+  [
+   "lawn_3",
+   "lawn_c",
+   "walk"
+  ],
+  [
+   "galley_table",
+   "galley_c",
+   "walk"
+  ],
+  [
+   "cargo_pallet",
+   "cargo_c",
+   "walk"
+  ]
+ ],
+ "lamps": [
+  [
+   65,
+   156
+  ],
+  [
+   65,
+   242
+  ],
+  [
+   336,
+   242
+  ],
+  [
+   65,
+   328
+  ],
+  [
+   64,
+   414
+  ],
+  [
+   336,
+   414
+  ],
+  [
+   65,
+   500
+  ],
+  [
+   336,
+   500
+  ]
+ ],
+ "plaques": [
+  {
+   "x": 122,
+   "y": 159,
+   "text": "HELM"
+  },
+  {
+   "x": 285,
+   "y": 159,
+   "text": "CHARTS"
+  },
+  {
+   "x": 158,
+   "y": 245,
+   "text": "GALLEY"
+  },
+  {
+   "x": 271,
+   "y": 240,
+   "text": "LIBRARY"
+  },
+  {
+   "x": 140,
+   "y": 331,
+   "text": "SICKBAY"
+  },
+  {
+   "x": 288,
+   "y": 331,
+   "text": "QA DESK"
+  },
+  {
+   "x": 143,
+   "y": 442,
+   "text": "LOUNGE"
+  },
+  {
+   "x": 144,
+   "y": 503,
+   "text": "WORKSHOP"
+  },
+  {
+   "x": 280,
+   "y": 503,
+   "text": "CARGO"
+  }
+ ],
+ "notes": "Feet coordinates in world px. Draw order: ship_<phase> -> crew/props sorted by y -> front_<phase> (desks in front of stations flagged behindFront) -> glow_<phase>. 'climb' edges are scripted moves (figurehead, crow's nest)."
+}

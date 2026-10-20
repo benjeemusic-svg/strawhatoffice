@@ -1,0 +1,5 @@
+const CARDS=[...["luffy","zoro","nami","usopp","sanji","chopper","robin","brook","jinbe"].map((id,i)=>({id,name:null,r:id==="luffy"?"epic":i<5?"rare":"common",crew:true})),
+  {id:"lion",name:"Sunflower Lion",r:"rare"},{id:"tangerine",name:"Tangerine Grove",r:"common"},{id:"snail",name:"Den Den Mushi",r:"common"},{id:"chest",name:"Treasure Chest",r:"common"},{id:"seaking",name:"Sea King",r:"epic"},{id:"tag",name:"Deal Tag",r:"common"},{id:"scope",name:"Release Spyglass",r:"common"},{id:"ledger",name:"Crew Ledger",r:"common"},{id:"pallet",name:"Golden Pallet",r:"legendary"}];
+function cardArt(cv,cd){const g=cv.getContext("2d");g.imageSmoothingEnabled=false;R(g,0,0,36,36,{common:"#e9d3a0",rare:"#bfe3ff",epic:"#e0c8ff",legendary:"#ffe680"}[cd.r]);
+  if(cd.crew){g.drawImage(mk(36,48,q=>drawChibi(q,cd.id,18,44,500,false,"down")),0,-10);return;}
+  const C=18;({lion:()=>{for(let a=0;a<12;a++){const an=a/12*Math.PI*2;disc(g,C+Math.cos(an)*11|0,C+Math.sin(an)*11|0,3,a%2?"#f5961e":"#ffc83a");}disc(g,C,C,8,"#ffe39a");R(g,C-4,C-2,2,2,OUTL);R(g,C+3,C-2,2,2,OUTL);R(g,C-2,C+3,5,1,"#8a4a2a");},

@@ -1,0 +1,11 @@
+{
+  "name": "straw-hat-office",
+  "version": "4.3.4",
+  "private": true,
+  "description": "Straw Hat crew interface: single-file pixel-art web app (vanilla HTML/CSS/JS) built by build.py",
+  "scripts": {
+    "build": "python3 build.py",
+    "start": "python3 -m http.server 8080",
+    "test": "for f in tests/*.js; do node \"$f\" || exit 1; done"
+  }
+}
